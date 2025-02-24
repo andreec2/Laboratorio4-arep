@@ -197,33 +197,49 @@ En la solapa de Tags de su repositorio en Dockerhub debería ver algo así:
 ![image](https://github.com/user-attachments/assets/7092f1ef-47bd-456c-a423-f6bb852c9342)
 
 ## Cuarta parte: AWS
-(aqui voy luego sigo xd)
+
+1. Crear una maquina virtual.
+
+![image](https://github.com/user-attachments/assets/d31ecaf5-f037-4f4d-8f13-866b54fd8726)
+
+![image](https://github.com/user-attachments/assets/5174a7c9-01ac-4e24-a9dc-b56d3dc8ccb5)
+
+2. Crear un par de claves ssh para ingresar a la maquina virtual.
+
+3. Acceda a la máquina virtual
+
+![image](https://github.com/user-attachments/assets/2854b897-73c6-409f-a310-a662e7e9ce49)
+
+4. Instale Docker
+
+![image](https://github.com/user-attachments/assets/2279c775-0f54-4827-9aca-39e34d678ccb)
+
+5. sudo service docker start.
+
+![image](https://github.com/user-attachments/assets/1ffbb6b4-523a-4570-94a3-53a0849e6341)
+
+6. A partir de la imagen creada en Dockerhub cree una instancia de un contenedor docker independiente de la consola (opción “-d”) y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p).
+
+![image](https://github.com/user-attachments/assets/4cb47ccf-3050-49a7-871a-0c97f397a1be)
+
+7. Abra los puertos de entrada del security group de la máxima virtual para acceder al servicio.
+
+![image](https://github.com/user-attachments/assets/5175c8a5-96c5-4273-b109-bae3edecc5d1)
+
+![image](https://github.com/user-attachments/assets/f3e25337-afef-4ff2-ab0b-5eaa13caa9c6)
+
+8. Verifique que pueda acceder  en una url similar a esta (la url específica depende de los valores de su maquina virtual EC2)
+
+![image](https://github.com/user-attachments/assets/4e60eff0-5525-400c-a859-9fe9142484b3)
+
+ec2-52-90-4-194.compute-1.amazonaws.com:42000/index.html
+
+![image](https://github.com/user-attachments/assets/e33114b5-d422-4ad5-a1f3-8ee2d6df22fa)
 
 http://localhost:35000/nombre?name=andres
-
-![image](https://github.com/user-attachments/assets/b2770f13-9728-4218-874c-382dbd8c0f29)
-
-![image](https://github.com/user-attachments/assets/90de5267-dfe7-4bb1-b03f-307a4c452bf1)
-
 http://localhost:35000/sum?a=6&b=5
-
-![image](https://github.com/user-attachments/assets/f75b949a-0b74-4f3e-9d8d-728b0014b867)
-
-![image](https://github.com/user-attachments/assets/2e8fb19f-c2b8-473e-90b7-41ef9afbdc82)
-
 http://localhost:35000/res?a=6&b=5
-
-![image](https://github.com/user-attachments/assets/d6c91eca-bb6a-483b-a96c-633557affca1)
-
-![image](https://github.com/user-attachments/assets/39c49846-0f39-4dad-8a63-5df2868e2689)
-
 http://localhost:35000/mul?a=6&b=5
-
-![image](https://github.com/user-attachments/assets/b5d5ac39-7a0f-4f58-97b0-28bc29c7c3a1)
-
-![image](https://github.com/user-attachments/assets/9094870b-ea48-46bc-a4db-ef6dfb83feaa)
-
-
 
 ## Built With
 * [Maven](https://maven.apache.org/) - Dependency Management
