@@ -341,6 +341,9 @@ Propósito: Asegurar que los controladores GreetingController y AndresController
 ## Built With
 * [Maven](https://maven.apache.org/) - Dependency Management
 
+## Video 
+
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/ieti410/Shared%20Documents/General/Recordings/Reuni%C3%B3n%20en%20_General_-20250227_175512-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4?web=1&referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view
 
 ## Authors
 
