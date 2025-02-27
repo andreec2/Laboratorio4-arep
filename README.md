@@ -228,7 +228,7 @@ En la solapa de Tags de su repositorio en Dockerhub debería ver algo así:
 
 ![image](https://github.com/user-attachments/assets/f3e25337-afef-4ff2-ab0b-5eaa13caa9c6)
 
-8. Verifique que pueda acceder  en una url similar a esta (la url específica depende de los valores de su maquina virtual EC2)
+8. Verifique que pueda acceder en una url similar a esta (la url específica depende de los valores de su maquina virtual EC2)
 
 ![image](https://github.com/user-attachments/assets/4e60eff0-5525-400c-a859-9fe9142484b3)
 
@@ -236,10 +236,22 @@ ec2-52-90-4-194.compute-1.amazonaws.com:42000/index.html
 
 ![image](https://github.com/user-attachments/assets/e33114b5-d422-4ad5-a1f3-8ee2d6df22fa)
 
-http://localhost:35000/nombre?name=andres
-http://localhost:35000/sum?a=6&b=5
-http://localhost:35000/res?a=6&b=5
-http://localhost:35000/mul?a=6&b=5
+http://ec2-3-83-254-56.compute-1.amazonaws.com:42000/nombre?name=andre
+
+![image](https://github.com/user-attachments/assets/8dac3b17-3e0b-4659-af99-7db97b24e2b3)
+
+http://ec2-3-83-254-56.compute-1.amazonaws.com:42000/sum?a=6&b=5
+
+![image](https://github.com/user-attachments/assets/da2dc047-47ed-41a4-98da-d766f566276b)
+
+http://ec2-3-83-254-56.compute-1.amazonaws.com:42000/res?a=6&b=5
+
+![image](https://github.com/user-attachments/assets/4ca18929-121f-45cf-badb-52bfaa0f2f73)
+
+http://ec2-3-83-254-56.compute-1.amazonaws.com:42000/mul?a=6&b=5
+
+![image](https://github.com/user-attachments/assets/ef17a6c8-7ed6-435c-91b6-a884abc67b46)
+
 
 ## Ejecutar las pruebas
 
